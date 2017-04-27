@@ -8,7 +8,7 @@ Ontology of Integrated Knowledge Space (IKSO) consists of a set of Content Ontol
 
 All CDPs are builded on the base of the Information Artifact Ontology ([IAO])
 
-###Requrements:
+### Requrements:
 The IKSO could be used by means of the following software:
 
 - [OWL API] 3.4 and higher;
