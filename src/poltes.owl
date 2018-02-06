@@ -1,0 +1,1811 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.iimm.ru/ontologies/oiks/poltes#"
+     xml:base="http://www.iimm.ru/ontologies/oiks/poltes"
+     xmlns:as="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:th="http://iimm.ru/th/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.iimm.ru/ontologies/oiks/poltes">
+        <owl:versionIRI rdf:resource="http://www.iimm.ru/ontologies/oiks/poltes/1.0"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">В настоящем тезаурусе представлена терминология полярной деятельности (ПД)  и  проведения  исследований  (ПИ)  в  полярных  регионах  (ПР).</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Association -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#Association"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Section_element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Section_element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Thesaurus_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Thesaurus_element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Thesaurus_element"/>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+        <rdfs:label>Элемент секции &quot;Инфраструктурные объекты полярной деятельности&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Полярная_деятельность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owl/owlapi/Section_element"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Антарктида -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Антарктида">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Южный_океан"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/климатический_пояс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/подводная_окраина_материка"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Материк в Южном полушарии, 6 в в Точка, полюc: занимающий центральную часть Южной полярной области, почти не распространяется за пределы Южного Полярного круга, окружен водами южных частей Атлантического, Индийского и Тихого океанов. </rdfs:comment>
+        <rdfs:label>Антарктида</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Арктика -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Арктика">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/климатический_пояс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/научная_станция_Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полюс_холода"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_авиация"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_сияние"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_овал"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_регион"/>
+        <rdfs:comment>Северная полярная область Земли. </rdfs:comment>
+        <rdfs:label>Арктика</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Арктическая_зона_Российской_Федерации -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Арктическая_зона_Российской_Федерации">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/наблюдатель_деятельности_в_Антарктике"/>
+        <rdfs:comment>Арктическая зона, находящаяся под юрисдикцией Российской Федерации. </rdfs:comment>
+        <rdfs:label>Арктическая зона Российской Федерации</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Беллинсгаузен_научная_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Беллинсгаузен_научная_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <rdfs:comment>Обозначение российской научной станции на острове Кинг-Джордж (Ватерлоо) в группе Южных Шетлендских островов. </rdfs:comment>
+        <rdfs:label>Беллинсгаузен научная станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ВПП -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ВПП">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>Часть аэродрома, входящая в качестве рабочей взлетно-посадочная полоса; [river] 15 площади в состав лётной полосы. </rdfs:comment>
+        <rdfs:label>ВПП</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Договор_об_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Договор_об_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/система_Договора_об_Антарктике"/>
+        <rdfs:comment>Договор об Антарктике, заключенный в городе Вашингтоне 1 декабря 1959 года [3]. </rdfs:comment>
+        <rdfs:label>Договор об Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <rdfs:comment>Состояние защищенности населения, материальных и культурных ценностей от возможного нанесения ущерба, позволяющее сохранять способность нормального функционирования систем жизнеобеспечения, поддерживать стабильность экономической ситуации, благоприятную экологическую, социально-психологическую обстановку и иные условия для социально-экономического развития и реализации интересов личности и общества при полярной деятельности или при проведении исследований в полярных регионах. техногенную, </rdfs:comment>
+        <rdfs:label>Комплексная безопасность жизнедеятельности населения и полярных территорий</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/менеджмент_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <rdfs:comment>Совокупность взаимосвязанных подсистем мониторинга и прогнозирования чрезвычайных ситуаций природного, техногенного и иного характера, контроля состояния потенциально опасных и других объектов защиты, а также организационных структур (органы управления комплексной системой) полярной деятельнсоти, объединенных в единую информационно-управляющую систему путем сопряжения существующих и создаваемых информационных и технических систем (элементы комплексной системы), в целях предупреждения, пресечения и ликвидации ЧС природного, техногенного, криминального и террористического характера, оповещения и информирования населения при угрозе ЧСПР и в условиях ЧСПР при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Комплексная система природно-техногенной безопасности жизнедеятельности населения и полярных территорий</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>Аварийно-спасательные и другие неотложные работы, проводимые при возникновении чрезвычайных ситуаций и направленные на спасение жизни и сохранение здоровья людей, снижение размеров ущерба окружающей среде и материальных потерь, а также на локализацию зон чрезвычайных ситуаций, прекращение действия характерных для них опасных факторов при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Ликвидация чрезвычайных ситуаций в полярных регионах</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Международный_геофизический_год -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Международный_геофизический_год">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Международный_полярный_год"/>
+        <rdfs:comment>Период с 1 июля 1957 по 31 декабря 1958 (18 месяцев), в течение которого 67 стран на всём земном шаре проводили геофизические наблюдения и исследования по единой программе и методике. </rdfs:comment>
+        <rdfs:label>Международный геофизический год</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Международный_полярный_год -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Международный_полярный_год">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Международный_геофизический_год"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_климат"/>
+        <rdfs:comment>Период одновременных геофизических наблюдений в Арктике силами ряда стран по общей программе и единой методике. </rdfs:comment>
+        <rdfs:label>Международный полярный год</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>Деятельность по всестороннему обеспечению аварийно-спасательных работ в полярных регионах, оказанию населению, пострадавшему в чрезвычайных ситуациях, медицинской и других видов помощи, созданию условий, минимально необходимых для сохранения жизни и здоровья людей, поддержания их работоспособности при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Неотложные работы при ликвидации чрезвычайных ситуаций в полярных регионах</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Новолазаревская_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Новолазаревская_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Антарктическая научная станция СССР на Земле Королевы Мод, в 80 км от берега моря Лазарева (Восточная Антарктида). </rdfs:comment>
+        <rdfs:label>Новолазаревская станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>Принятие и соблюдение правовых норм, выполнение экологозащит-ных, отраслевых или ведомственных требований и правил, а также проведение комплекса организационных, экономических, санитарно-гигиенических, санитарно-эпидемиологических и специальных мероприятий, направленных на обеспечение защиты населения, объектов народного хозяйства и иного назначения, окружающей природной среды от опасностей в чрезвычайных ситуациях в полярных регионах. экологозащитных, </rdfs:comment>
+        <rdfs:label>Обеспечение безопасности в чрезвычайных ситуациях при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <rdfs:comment>Способ организации жизнедеятельности личности, общества и государства, а также система специальных мер, направленных на предупреждение, локализацию и устранение угроз их существованию и развитию в полярных регионах при полярной деятельности или при проведении исследований в полярных регионах. Обеспечение безопасности является постоянной задачей, важнейшим условием и интегративным показателем благополучия социума и его структур. Безопасность достигается проведением единой государственной политики по созданию и поддержанию необходимого уровня защищенности объектов безопасности, системой мер экономического, политического, организационного и иного характера, адекватных угрозам их жизненно важным интересам. </rdfs:comment>
+        <rdfs:label>Обеспечение безопасности при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Орган_управления_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Орган_управления_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <rdfs:comment>Структурный элемент органов управления РСЧС соответствующего уровня, осуществляющий оперативное управление и контроль за функционированием подсистем и звеньев в пределах имеющихся полномочий. </rdfs:comment>
+        <rdfs:label>Орган управления комплексной системы обеспечения безопасности при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Полярник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Полярник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/инфраструктура_полярных_исследований"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>Гражданин, подготовленный и аттестованный на проведение исследований и осуществление полярной деятельности в полярных регионах. </rdfs:comment>
+        <rdfs:label>Полярник</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Совокупность органов управления, сил и средств федеральных органов исполнительной власти, органов исполнительной власти субъектов РФ, органов местного самоуправления и организаций, в полномочия которых входит решение вопросов по защите населения и территорий от чрезвычайных ситуаций в полярных регионах (ЧСПР). </rdfs:comment>
+        <rdfs:label>Единая государственная система предупреждения и ликвидации чрезвычайных ситуаций в полярных регионах; РСЧС в ПР</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Работы_аварийно-восстановительные_в_чрезвычайной_ситуации_в_полярных_регионах -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-восстановительные_в_чрезвычайной_ситуации_в_полярных_регионах">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <rdfs:comment>Первоочередные работы в зоне чрезвычайной ситуации по локализации отдельных очагов разрушений и повышенной опасности, по устранению аварий и повреждений на се тях и линиях коммунальных и производственных комму-никаций, созданию минимально необходимых условий для жизнеобеспечения населения, а также работы по санитарной очистке и обеззараживанию территории по-лярных регионов. </rdfs:comment>
+        <rdfs:label>Работы аварийно-восстановительные в чрезвычайной ситуации в полярных регионах</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>Действия в полярных регионах по спасению людей, материальных и культурных ценностей, защите природной среды в зоне чрезвычайных ситуаций, локализации чрезвычайных ситуаций и подавлению или доведению до минимально возможного уровня воздействия характерных для них опасных факторов. Аварийно-спасательные работы в полярных регионах характеризуются наличием инфраструктурных ограничений и факторов, угрожающих жизни и здоровью проводящих эти работы людей, и требуют специальной подготовки, экипировки и оснащения. 21 </rdfs:comment>
+        <rdfs:label>Работы аварийно-спасательные в полярных регионах</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Северный_Ледовитый_океан -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Северный_Ледовитый_океан">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <rdfs:comment>арктический Границу пояс. – каждого из – Решением (Нрк. Пятый </rdfs:comment>
+        <rdfs:label>Северный Ледовитый океан</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Северный_морской_путь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Северный_морской_путь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Судоходная магистраль, проходящая вдоль северных берегов Российской Федерации по морям Северного Ледовитого океана (Баренцево, Карское, Лаптевых, Восточно-Сибирское, Чукотское и Берингово). (См. рисунок А.2) </rdfs:comment>
+        <rdfs:label>Северный морской путь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Северный_полюс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Северный_полюс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Южный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/географический_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс"/>
+        <rdfs:comment>Точка, которой воображаемая ось вращения Земли пересекает её поверхность в Северном полушарии. </rdfs:comment>
+        <rdfs:label>Северный полюс</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктическая_зона_Российской_Федерации"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <rdfs:comment>составная часть сил и средств РСЧС, находящаяся на дежурстве и предназначенная для быстрого прибытия и проведения в минимально возможный срок неотложных работ в зонах чрезвычайной ситуации как на территории Российской Федерации, так в полярных регионах. </rdfs:comment>
+        <rdfs:label>Силы аварийно-спасательные постоянной готовности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/инфраструктура_полярных_исследований"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Совокупность взаимосвязанных и определенным образом упорядоченных элементов, включающая в себя правовые, социально-экономические, организационные, технические, методические, санитарно-гигиенические, профилактические и иные средства и мероприятия для целей обеспечения безопасности при полярной деятельности или при проведении исследований в полярных регионах. Система безопасности при полярной деятельности или при проведении исследований в полярных регионах включает все средства обеспечения безопасности, в том числе технику безопасности и охрану труда. </rdfs:comment>
+        <rdfs:label>Система безопасности при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/менеджмент_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Взаимодействующий механизм, состоящий из органов государственной власти, органов 23 местного самоуправления, организаций и граждан, а также специально создаваемых органов управления, сил и средств, осуществляющих целенаправленную деятельность и непосредственное участие в реализации целей и задач обеспечения безопасности в полярных регионах при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Система обеспечения безопасности при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <rdfs:comment>Гражданин, подготовленный и аттестованный на проведение аварийно-спасательных работ в полярных регионах. </rdfs:comment>
+        <rdfs:label>Спасатель в полярных регионах</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_прицеп"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>Техническая, научно-техническая и интеллек-туальная продукция выполненная в полярном исполнении, в том числе специализированные средства связи и управления, техника, оборудование, снаряжение, имущество и материалы, методические, видео, кино, фотоматериалы по технологии аварийно-спасательных работ, а также программные продукты и базы данных для электронных вычислительных машин и иные средства, предназначенные аварийно-проведения спасательных работ в полярных регионах. для </rdfs:comment>
+        <rdfs:label>Средства аварийно-спасательные для полярных регионов</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Активные участники деятельности по противодействию существующим угрозам (территориальные органы федеральных органов исполнительной власти, органы государственной власти, органы местного самоуправления, объекты защиты) при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Субъекты обеспечения безопасности при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/результирующий_дрейф_льда"/>
+        <rdfs:comment>Обстановка на определенной территории, сложившаяся в результате аварии, опасного природного явления, катастрофы, стихийного или иного бедствия, которые могут повлечь или повлекли за собой человеческие жертвы, ущерб здоровью людей или окружающей среде, значительные материальные потери и нарушение условий жизнедеятельности людей при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Чрезвычайная ситуация в полярном регионе</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/менеджмент_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Существующие и создаваемые информационные и технические системы, функционирующие на базе объектов защиты, территориальных органов федеральных органов исполнительной власти, органов исполнительной государственной власти области, органов местного самоуправления (элементы сопряжения), а также каналы связи и программно-аппаратные средства, обеспечивающие информационное сопряжение данных систем (сопрягающие элементы) при полярной деятельности 25 или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>Элементы комплексной системы обеспечения безопасности при полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Южный_океан -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Южный_океан">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <rdfs:comment>Устоявщееся название вод трёх океанов (Тихого, Атлантического, Индийского), окружающих материк Антарктида. </rdfs:comment>
+        <rdfs:label>Южный океан</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/Южный_полюс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/Южный_полюс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/географический_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс"/>
+        <rdfs:comment>Точка, в которой воображаемая ось вращения Земли пересекает её поверхность в Южном полушарии. </rdfs:comment>
+        <rdfs:label>Южный полюс</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/айсберг -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/айсберг">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/речной_лед"/>
+        <rdfs:comment>Крупная глыба плавающего льда, образующаяся вследствие обламывания конца ледника. [ГОСТ 26463, статья 18] </rdfs:comment>
+        <rdfs:label>айсберг</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/антициклонный_дрейф_льда -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/антициклонный_дрейф_льда">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <rdfs:comment>руговое перемещение льда, направленное по часовой стрелке в северном полушарии и против часовой стрелки в южном. </rdfs:comment>
+        <rdfs:label>антициклонный дрейф льда</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/арктический_климат -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/арктический_климат">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Международный_полярный_год"/>
+        <rdfs:comment>Тип климата, присущий Арктике. </rdfs:comment>
+        <rdfs:label>арктический климат</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/арктический_туризм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/арктический_туризм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-восстановительные_в_чрезвычайной_ситуации_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Спасатель_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/инфраструктура_полярных_исследований"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/инфраструктурно-климатические_ограничения"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/климатический_пояс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_авиация"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_сияние"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_регион"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>Туризм в полярных регионах. </rdfs:comment>
+        <rdfs:label>арктический туризм</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/арктический_фронт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/арктический_фронт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь"/>
+        <rdfs:comment>Пограничная зона между арктическими воздушными массами и воздушными массами умеренных широт. </rdfs:comment>
+        <rdfs:label>арктический фронт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/аэродром -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/аэродром">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>Участок территории, предназначенный для взлёта и посадки самолётов и вертолётов, их стоянки и обслуживания, а также сооружения и оборудование, обеспечивающие полёты. </rdfs:comment>
+        <rdfs:label>аэродром</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/географический_полюс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/географический_полюс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Южный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс"/>
+        <rdfs:comment>Одна из двух точек пересечения воображаемой оси вращения Земли с земной поверхностью. </rdfs:comment>
+        <rdfs:label>географический полюс</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Южный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/географический_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс"/>
+        <rdfs:comment>Координаты точки на поверхности Земли в сферической системе координат, полярной осью которых служит магнитная ось земного диполя. </rdfs:comment>
+        <rdfs:label>геомагнитные координаты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Южный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/географический_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитные_координаты"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_сияние"/>
+        <rdfs:comment>Одна из двух точек пересечения магнитной оси Земли с её поверхностью. </rdfs:comment>
+        <rdfs:label>геомагнитный полюс</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/государственный_оператор_деятельности_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/государственный_оператор_деятельности_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/наблюдатель_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/разрешение_на_осуществление_деятельности_в_Антарктике"/>
+        <rdfs:comment>оператор, назначенный Правительством Российской Федерации для организации и осуществления деятельности в Антарктике в интересах Российской Федерации, в том числе в целях выполнения международных обязательств Российской Федерации [3]. </rdfs:comment>
+        <rdfs:label>государственный оператор деятельности в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД"/>
+        <rdfs:comment>организация из числа государственных корпораций и предприятий, и негосударственных организаций, индивидуальных также физических лиц, осуществляющих деятельность в полярных регионах и для полярных регионов в целях их устойчивого развития. предпринимателей, а </rdfs:comment>
+        <rdfs:label>деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/деятельность_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/деятельность_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/наблюдатель_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/негосударственный_оператор_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/оператор_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/разрешение_на_осуществление_деятельности_в_Антарктике"/>
+        <rdfs:comment>деятельность в Антарктике - любая деятельность, осуществляемая российскими гражданами, российскими юридическими лицами 19 цами в Антарктике и регулируемая международными договорами Российской Федерации, настоящим Федеральным законом, другими федеральными законами и иными нормативными правовыми актами Российской Федерации [3]. </rdfs:comment>
+        <rdfs:label>деятельность в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/дрейф_льда -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/дрейф_льда">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_сияние"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/социальная_ответственность"/>
+        <rdfs:comment>Движение воздействием ветра и течений (см. рисунок. А.10). </rdfs:comment>
+        <rdfs:label>дрейф льда</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/дрейфующая_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/дрейфующая_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/научная_станция_Северный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/подводная_окраина_материка"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_станция"/>
+        <rdfs:comment>Научно-исследовательская станция расположенная на свободно дрейфующем ледяном поле либо ледяном острове в водах Северного ледовитого океана или Южного океана. </rdfs:comment>
+        <rdfs:label>дрейфующая станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/железнодорожная_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/железнодорожная_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>Объект железнодорожного транспорта, имеющий путевое развитие, позволяющее производить операции по приёму, отправке, скрещению и обгону поездов, операции поприему, выдаче грузов, багажа и грузобагажа и обслуживанию пассажиров, а при развитых путевыхустройствах — маневровую работу по формированию и расформированию поездов и технические операции споездами. </rdfs:comment>
+        <rdfs:label>железнодорожная станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/оператор_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/социальная_ответственность"/>
+        <rdfs:comment>Лицо или группа, заинтересованные в какихлибо решениях или деятельности организации. </rdfs:comment>
+        <rdfs:label>заинтересованная сторона</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктическая_зона_Российской_Федерации"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Новолазаревская_станция"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_фронт"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/окружающая_среда"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/трансарктический_дрейф_льда"/>
+        <rdfs:comment>Одна из двух природных зон суши Земли в пределах арктического и антарктического поясов. </rdfs:comment>
+        <rdfs:label>зона арктических пустынь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/инициатива -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/инициатива">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <rdfs:comment>Программа и/или деятельность, непосредственно посвященная достижению определенной цели. </rdfs:comment>
+        <rdfs:label>инициатива</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/инфраструктура_полярных_исследований -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/инфраструктура_полярных_исследований">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <rdfs:comment>совокупность всех мер и средств, обеспечивающих возможность выполнения запланированных мероприятиий и действий по осуществлению полярных исследований и другой деятельности полярных регионах. </rdfs:comment>
+        <rdfs:label>инфраструктура полярных исследований</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/инфраструктурная_деятельность -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/инфраструктурная_деятельность">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <rdfs:comment>Мероприятия, действия и проекты, направленные на содействие проведению и развитию полярных исследований, созданию и информационно-эксплуатации телекоммуникационных транспортно-логистических объектов, элементов социально-культурной сферы и деятельности, направленной на повышение уровня жизни. </rdfs:comment>
+        <rdfs:label>инфраструктурная деятельность</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/инфраструктурно-климатические_ограничения -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/инфраструктурно-климатические_ограничения">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/ограничения"/>
+        <rdfs:comment>Инфраструктурные ограничения, связанные с неблагоприятными (экстремальными) природными, географическими и климатическими условиями жизни и деятельности в полярных регионах. инфраструктурные осуществляемой в сетей, успешного 14 </rdfs:comment>
+        <rdfs:label>инфраструктурно-климатические ограничения</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/исправленные_геомагнитные_координаты -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/исправленные_геомагнитные_координаты">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <rdfs:comment>Геомагнитные координаты, откорректированные для компенсации отклонения реального магнитного поля Земли от дипольного. </rdfs:comment>
+        <rdfs:label>исправленные геомагнитные координаты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/климат -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/климат">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <rdfs:comment>Многлетний режим погоды, свойственный каждому месту Земли в зависимости от его географического положения. </rdfs:comment>
+        <rdfs:label>климат</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/климатический_пояс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/климатический_пояс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Климатический полярный полюс Земли в Северном [Южном] полушарии на территории выше широты 60°– 70° в каждом из полушарий. </rdfs:comment>
+        <rdfs:label>арктический антарктический климатический полярный [антарктический] климатический пояс</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ледник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ледник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Движушееся естественное скопление льда и фирна по земной поверхности, возникающее в результате накопления и преобразования твердых атмосферных осадков предположительном многолетнем балансе. </rdfs:comment>
+        <rdfs:label>ледник</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ледниковый_покров -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ледниковый_покров">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <rdfs:comment>Система ледниковых щитов, куполов, ледяных потоков, выводных ледников, шельфовых ледников, погребающих сушу, континентальные шельфы и материковые склоны. [ГОСТ 26463, статья 18] </rdfs:comment>
+        <rdfs:label>ледниковый покров</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ледокол -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ледокол">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <rdfs:comment>Судно, предназначенное для плавания во льдах с целью поддержания навигации в замерзающих бассейнах. </rdfs:comment>
+        <rdfs:label>ледокол</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ледяной_берег -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ледяной_берег">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/шельфовый_ледник"/>
+        <rdfs:comment>Преимущественно обрывистый берег, образованный краем спускающегося в море материкового ледника. ( См. рисунок 3.) </rdfs:comment>
+        <rdfs:label>ледяной берег</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ледяной_остров -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ледяной_остров">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <rdfs:comment>Большой кусок плавучего льда, выступающий выше уровня моря на 5 и более метров, который отломился от арктического шельфового льда. (см. рисунок А.8.) </rdfs:comment>
+        <rdfs:label>ледяной остров</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/международные_нормы_поведения -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/международные_нормы_поведения">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/этичное_поведение"/>
+        <rdfs:comment>Ожидания относительно социально ответственного поведения организации, основанные на традиционном международном праве, общепринятых принципах международного права или межправительственных соглашениях, которые признаются повсеместно или почти повсеместно. </rdfs:comment>
+        <rdfs:label>международные нормы поведения</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/менеджмент_полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/менеджмент_полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярной_деятельности"/>
+        <rdfs:comment>Скоординированная деятельность по руководству и управлению полярной деятельностью. </rdfs:comment>
+        <rdfs:label>менеджмент полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/морской_или_речной_порт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/морской_или_речной_порт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Участок морского [речного] берега с прилегающим водным районом, сооружениями и устройствами для погрузки - разгрузки и полного их обслуживания. </rdfs:comment>
+        <rdfs:label>морской или речной порт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/морской_лед -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/морской_лед">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/речной_лед"/>
+        <rdfs:comment>Лед, образующийся в море в результате замерзания морской воды. </rdfs:comment>
+        <rdfs:label>морской лед</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/наблюдатель_деятельности_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/наблюдатель_деятельности_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктическая_зона_Российской_Федерации"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/государственный_оператор_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельность_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/разрешение_на_осуществление_деятельности_в_Антарктике"/>
+        <rdfs:comment>должностное лицо, на которое решением уполномоченного Правительством Российской Федерации федерального органа исполнительной власти возложены функции по контролю за соблюдением установленных разрешением требований к осуществлению деятельности в Антарктике и условий ее осуществления [3]. </rdfs:comment>
+        <rdfs:label>наблюдатель деятельности в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/научная_деятельность -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/научная_деятельность">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <rdfs:comment>Интеллектуальная деятельность, направленная на получение и применение для решения технологических, инженерных, экономических, экологических, социальных, гуманитарных и задач; иных обеспечения функционирования науки, техники и производства как единой системы. знаний свои удовлетворять </rdfs:comment>
+        <rdfs:label>научная деятельность</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/научная_станция_Северный_полюс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/научная_станция_Северный_полюс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/дрейфующая_станция"/>
+        <rdfs:comment>Буквенная часть обозначения дрейфующих научно-исследовательских станций с советскими (российскими) научными обсерваториями на дрейфующих льдах в глубоководной части Северного Ледовитого океана. </rdfs:comment>
+        <rdfs:label>научная станция Северный полюс</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/негосударственный_оператор_деятельности_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/негосударственный_оператор_деятельности_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельность_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/оператор_деятельности_в_Антарктике"/>
+        <rdfs:comment>оператор, организующий и осуществляющий деятельность в Антарктике в инициативном порядке. </rdfs:comment>
+        <rdfs:label>негосударственный оператор деятельности в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ограничения -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ограничения">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/инфраструктурно-климатические_ограничения"/>
+        <rdfs:comment>Ограничения инфраструктурной деятельности в силу неблагоприятных условий. </rdfs:comment>
+        <rdfs:label>ограничения</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/окружающая_среда -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/окружающая_среда">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь"/>
+        <rdfs:comment>Природное окружение, в котором функционирует организация, включая воздух, воду, землю, природные ресурсы, флору, фауну, людей, космическое пространство и их взаимосвязь. </rdfs:comment>
+        <rdfs:label>окружающая среда</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/оператор_деятельности_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/оператор_деятельности_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельность_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/негосударственный_оператор_деятельности_в_Антарктике"/>
+        <rdfs:comment>российский гражданин или российское юридическое лицо, организующие и осуществляющие деятельность в Антарктике, в том числе с участием иностранных граждан, и (или) иностранных юридических лиц, и (или) лиц без гражданства, на основании разрешения на осуществление деятельности в Антарктике (государственный оператор, негосударственный оператор) [3]. </rdfs:comment>
+        <rdfs:label>оператор деятельности в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/организация -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/организация">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <rdfs:comment>Группа людей и объектов с соответствующей системой обязанностей, полномочий и отношений, а также с определяемыми целями. </rdfs:comment>
+        <rdfs:label>организация</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/ответные_действия_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/ответные_действия_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <rdfs:comment>разумные (целесообразные, практически осуществимые, пропорциональные) меры, которые должны быть предприняты или совершены после возникновения чрезвычайной экологической ситуации в целях предотвращения, минимизации или ограничения масштаба воздействия этой чрезвычайной экологической ситуации и которые с этой целью могут включать в себя очистку территории Антарктики в соответствующих обстоятельствах, а также определение масштаба этой чрезвычайной экологической ситуации и ее воздействия [3]. </rdfs:comment>
+        <rdfs:label>ответные действия в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/погода -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/погода">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/результирующий_дрейф_льда"/>
+        <rdfs:comment>Непрерывно меняющееся состояние свойств атмосферы у земнйой поверхности и в совбодной атмосфере в данном месте и в данный момоент или за некоторый промежутой времени. </rdfs:comment>
+        <rdfs:label>погода</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/подводная_окраина_материка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/подводная_окраина_материка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/дрейфующая_станция"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/шельф"/>
+        <rdfs:comment>Часть материка, расположенная ниже уровня океана и покрытая его водами. </rdfs:comment>
+        <rdfs:label>подводная окраина материка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полюс_холода -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полюс_холода">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <rdfs:comment>Район с наиболее низкими температурами воздуха у земной поверхности в Северном или Южном полушарии или на всем земном шаре. </rdfs:comment>
+        <rdfs:label>полюс холода</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярная_авиация -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярная_авиация">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <rdfs:comment>Авиация для для транспортных, разведывательных, специальных и грузопассажирских операции в полярных регионах Земли. </rdfs:comment>
+        <rdfs:label>полярная авиация</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярная_деятельность_ПД">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельности"/>
+        <rdfs:comment>Деятельность государственных, негосударственных организаций, индивидуальных предпринимателей, а также физических лиц, осуществляемая в полярных регионах и для полярных регионов в целях их устойчивого развития. </rdfs:comment>
+        <rdfs:label>полярная деятельность ПД</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярная_инициатива -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярная_инициатива">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярных_регионах"/>
+        <rdfs:comment>улучшение результатов полярной деятельности, процессов и возможностей организации при осуществления полярной деятельности, постоянное повышения уровня безопастности, поддержание экологического баланса и охраны труда при полярной деятельности или деятельности в полярных регионах. </rdfs:comment>
+        <rdfs:label>полярная инициатива</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярная_ночь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярная_ночь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/климатический_пояс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_сияние"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_регион"/>
+        <rdfs:comment>Часть года в полярных областях, лежащих к северу от Северного полярного круга и к югу от Южного полярного кргуа, когда Солнце горизонтом. </rdfs:comment>
+        <rdfs:label>полярная ночь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярная_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярная_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/дрейфующая_станция"/>
+        <rdfs:comment>Научно-исследовательскя станция на побрежье континентов и островах Северного ледовитого океана, а также в Антарктиде. </rdfs:comment>
+        <rdfs:label>полярная станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярное_исполнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярное_исполнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_безопасность_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Комплексная_система_природно-техногенной_безопасности_жизнедеятельности_населения_и_полярных_территорий"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_прицеп"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>Исполнение техничеcкого средства или изделия, пригодного для эксплуатации в полярных условиях. </rdfs:comment>
+        <rdfs:label>полярное исполнение</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_прицеп"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>Колесное транспортное средство, предназначенное для работы в полярных условиях и изготовленное в полярном исполнении. </rdfs:comment>
+        <rdfs:label>полярное колесное транспортное средство</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярное_сияние -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярное_сияние">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/геомагнитный_полюс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/дрейф_льда"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_день"/>
+        <rdfs:comment>Свечение верхних разреженнхы слоев атмосфер в полярнх областях поднимается полярного дня еще не над Lights, 10 сияния наблюдаются на высоте приблизительно 100 км, вызываемое воздействием заряженных частиц (электронов и протонов с энергией в единицы и десятки килоэлетрон-вольт), направляемых в эти слои магнитнымы полем Земли. </rdfs:comment>
+        <rdfs:label>полярное сияние</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярной_деятельности -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярной_деятельности">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/менеджмент_полярной_деятельности"/>
+        <rdfs:comment>Общие намерения и направления деятельности организации участника полярной дейтельности в области полярной деятельности и проведения исследований в полярных регионах, официально руководством организации участника полярной дейтельности. сформулированные участник полярной </rdfs:comment>
+        <rdfs:comment>Система мероприятий и действий по руководству и управлению полярной деятельностью. менеджмента система политика менеджмента </rdfs:comment>
+        <rdfs:label>полярной деятельности</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярные_аэросани -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярные_аэросани">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_прицеп"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>Аэросани, предназначенное для работы в полярных условиях и изготовленные в полярном исполнении. </rdfs:comment>
+        <rdfs:label>полярные аэросани</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>автопогрузчик, предназначенный для работы в полярных условиях и изготовленный в полярном исполнении. </rdfs:comment>
+        <rdfs:label>полярный автопогрузчик</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_день -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_день">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Антарктида"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/РСЧС_в_ПР"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Система_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Субъекты_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Элементы_комплексной_системы_обеспечения_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/климатический_пояс"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_сияние"/>
+        <rdfs:comment>Часть года в полярных областях, лежащих к северу от Северного полярного круга и к югу от Южного полярного кргуа, когда Солнце не заходит за горизонт. </rdfs:comment>
+        <rdfs:label>полярный день</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_круг -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_круг">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <rdfs:comment>Земная параллель, отстоящая от экватора на 6633’ (угол наклона земной оси к плоскости эклиптики). </rdfs:comment>
+        <rdfs:label>полярный круг</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_овал -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_овал">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <rdfs:comment>Область, вдоль которой полярные практичсекие (повторяемость полярных синяий непрерыывно больше 80%). </rdfs:comment>
+        <rdfs:label>полярный овал</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-восстановительные_в_чрезвычайной_ситуации_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Силы_аварийно-спасательные_постоянной_готовности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_прицеп"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>подъемный кран, предназначенный для работы в полярных условиях и изготовленный в полярном исполнении. </rdfs:comment>
+        <rdfs:label>полярный подъемный кран</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_прицеп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_прицеп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_трактор"/>
+        <rdfs:comment>Транспортное средство в полярном исполнении, не оборудованное двигателем и предназначенное для движения в составе с механическим транспортным средством. </rdfs:comment>
+        <rdfs:label>полярный прицеп</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_регион -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_регион">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Арктика"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_ночь"/>
+        <rdfs:comment>Один из двух географически социально-экономически определённых регионов в северном и южном Антарктике), полушариях простирающийхся с примыкающими к ним областями. </rdfs:comment>
+        <rdfs:label>полярный регион</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярный_трактор -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярный_трактор">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Технические_средства_для_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Средства_аварийно-спасательные_для_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_исполнение"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярное_колесное_транспортное_средство"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярные_аэросани"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_автопогрузчик"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_подъемный_кран"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярный_прицеп"/>
+        <rdfs:comment>Гусенечное транспортное средство, предназначенное для работы в полярных условиях и изготовленное в полярном исполнении. полярный автопогрузчик: </rdfs:comment>
+        <rdfs:label>полярный трактор</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/полярных_регионах -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/полярных_регионах">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопастности_и_аварийно-спасательные_работы_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Ликвидация_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Неотложные_работы_при_ликвидации_чрезвычайных_ситуаций_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Обеспечение_безопасности_в_чрезвычайных_ситуациях_при_полярной_деятельности"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Работы_аварийно-спасательные_в_полярных_регионах"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/арктический_туризм"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/полярная_инициатива"/>
+        <rdfs:comment>Предупреждение чрезвычайных ситуаций в 24 Комплекс мероприятий, проводимых заблаговременно и направленных на максимально возможное уменьшение риска возникновения чрезвычайных ситуаций, а также на сохранение здоровья людей, снижение размеров ущерба окружающей среде и материальных потерь в случае их возникновения при полярной деятельности или при проведении исследований в полярных регионах. </rdfs:comment>
+        <rdfs:label>полярных регионах</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/причал -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/причал">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>совокупность сооружений и устройств для стоянки и обслуживания судов, посадки и высадки пассажиров, грузовых операций. </rdfs:comment>
+        <rdfs:label>причал</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/путевое_развитие -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/путевое_развитие">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>дополнительные группы путей на железнодорожных станциях, помимо главных, предназначенные для обгона, скрещения, приёма и отправления поездов. </rdfs:comment>
+        <rdfs:label>путевое развитие</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/радиолокационная_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/радиолокационная_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>Термин разрабатывается</rdfs:comment>
+        <rdfs:label>радиолокационная станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/разрешение_на_осуществление_деятельности_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/разрешение_на_осуществление_деятельности_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/государственный_оператор_деятельности_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/деятельность_в_Антарктике"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/наблюдатель_деятельности_в_Антарктике"/>
+        <rdfs:comment>документ, выданный уполномоченным Правительством Российской Федерации федеральным органом исполнительной власти и устанавливающий требования и условия, в соответствии с которыми может осуществляться деятельность оператора в Антарктике [3]. </rdfs:comment>
+        <rdfs:label>разрешение на осуществление деятельности в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/результирующий_дрейф_льда -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/результирующий_дрейф_льда">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Чрезвычайная_ситуация_в_полярном_регионе"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/погода"/>
+        <rdfs:comment>Средний вектор дрейфа льда в данном месте за определенный период времени. </rdfs:comment>
+        <rdfs:label>результирующий дрейф льда</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/речной_лед -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/речной_лед">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/айсберг"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/морской_лед"/>
+        <rdfs:comment>Лед, образующийся на реках при замерзании воды. </rdfs:comment>
+        <rdfs:label>речной лед</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/система_Договора_об_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/система_Договора_об_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Договор_об_Антарктике"/>
+        <rdfs:comment>система Договора об Антарктике - Договор об Антарктике, Протокол по охране окружающей среды к Договору об Антарктике, заключенный в городе Мадриде 4 октября 1991 года, Конвенция о сохранении тюленей Антарктики, заключенная в городе Лондоне 1 июня 1972 года, Конвенция о сохранении морских живых ресурсов Антарктики, заключенная в городе Канберре 20 мая 1980 года, а также рекомендации, меры и решения консультативных совещаний по Договору об Антарктике и меры по сохранению, принимаемые Комиссией по сохранению морских живых ресурсов Антарктики, созданной в соответствии с Конвенцией о сохранении морских живых ресурсов Антарктики [3]. </rdfs:comment>
+        <rdfs:label>система Договора об Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/социальная_ответственность -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/социальная_ответственность">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/дрейф_льда"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/заинтересованная_сторона"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/этичное_поведение"/>
+        <rdfs:comment>Ответственность организации за воздействие ее решений и деятельности на общество и окружающую среду через прозрачное и этичное поведение, которое: содействует устойчивому развитию, включая здоровье и благосостояние общества; 12 учитывает ожидания заинтересованных сторон; соответствует применяемому законодательству и согласуется с международными нормами поведения; интегрировано деятельность всей организации и применяется в ее взаимоотношениях. в </rdfs:comment>
+        <rdfs:label>социальная ответственность</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/телекоммуникационная_станция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/телекоммуникационная_станция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Инфраструктурные_объекты_полярной_деятельности"/>
+        <rdfs:comment>станция для наземной радиосвязи и/или земная станция спутниковой связи для обмена звукой и/или видеоинформацией, и/или данными. </rdfs:comment>
+        <rdfs:label>телекоммуникационная станция</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/трансарктический_дрейф_льда -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/трансарктический_дрейф_льда">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Климат_и_природные_явления_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/зона_арктических_пустынь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Перенос льда через Арктический бассейн со стороны окраинных морей сибирского шельфа в сторону Гренладского моря. антициклонный дрейф льда под льда </rdfs:comment>
+        <rdfs:label>трансарктический дрейф льда</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/устойчивое_развитие -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/устойчивое_развитие">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <rdfs:comment>Развитие, которое удовлетворяет потребности настоящего времени, не подвергая риску возможности будущих поколений потребности. </rdfs:comment>
+        <rdfs:label>устойчивое развитие</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/фиард -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/фиард">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>узкий как правило разветвленный залив, окруженный низкогорными берегами. П р м е ч а н и е – Глубина фиарда редко превышает 100 м. </rdfs:comment>
+        <rdfs:label>фиард</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/фиардовый_берег -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/фиардовый_берег">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Новолазаревская_станция"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/Северный_морской_путь"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/ледник"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/ледяной_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/морской_или_речной_порт"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/социальная_ответственность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/трансарктический_дрейф_льда"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиард"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиорд"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиордовой_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/шельф"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/шельфовый_ледник"/>
+        <rdfs:comment>Берег, фиардами. </rdfs:comment>
+        <rdfs:label>фиардовый берег</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/фиорд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/фиорд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиордовой_берег"/>
+        <rdfs:comment>Узкий, извилистый и глубоко врезавшийся в сушу морской залив с крутыми скалистыми берегами. (См. рисунки 3 – 6.) </rdfs:comment>
+        <rdfs:label>фиорд</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/фиордовой_берег -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/фиордовой_берег">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиорд"/>
+        <rdfs:comment>Берег, сильно расчленнный глубоко вдающимися в горную сушу фиордами. </rdfs:comment>
+        <rdfs:label>фиордовой берег</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/чрезвычайная_экологическая_ситуация_в_Антарктике -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/чрезвычайная_экологическая_ситуация_в_Антарктике">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярные_станции_и_международная_полярная_деятельность"/>
+        <rdfs:comment>инцидент, который оказывает любое значительное и вредное воздействие на окружающую среду Антарктики или создает неотвратимую угрозу такого воздействия [3]. </rdfs:comment>
+        <rdfs:label>чрезвычайная экологическая ситуация в Антарктике</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/шельф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/шельф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/подводная_окраина_материка"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Подводная относительно или слабонаклоненная равнина, расположенная в пределах подводной окраины материка между берегом и уступом материкового склона. </rdfs:comment>
+        <rdfs:label>шельф</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/шельфовый_ледник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/шельфовый_ледник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Основные_понятия_полярных_регионов"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/ледяной_берег"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/фиардовый_берег"/>
+        <rdfs:comment>Плавучий или частично опирающийся на дно ледник плитообразной формы текущий от берега в море в виде утончающейся к краю плиты, заканчивающейся обрывом. (См. рисунок 4.) </rdfs:comment>
+        <rdfs:label>шельфовый ледник</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/этичное_поведение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/этичное_поведение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/Полярная_деятельность"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/международные_нормы_поведения"/>
+        <as:Association rdf:resource="http://www.semanticweb.org/owl/owlapi/социальная_ответственность"/>
+        <rdfs:comment>Поведение, которое соответствует принятым принципам правильного или хорошего поведения в контексте конкретной ситуации, а также согласуется с международными нормами поведения. </rdfs:comment>
+        <rdfs:label>этичное поведение</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
