@@ -16,7 +16,7 @@
         <owl:versionIRI rdf:resource="http://www.iimm.ru/ontologies/oiks/1.1"/>
         <owl:imports rdf:resource="http://www.iimm.ru/ontologies/cdp/study-design"/>
         <owl:imports rdf:resource="http://www.iimm.ru/ontologies/cdp/investigation-specification"/>
-        <owl:imports rdf:resource="http://www.iimm.ru/ontologies/oiks/poltes/1.0"/>
+        <owl:imports rdf:resource="http://www.iimm.ru/ontologies/oiks/poltes"/>
         <owl:imports rdf:resource="http://www.iimm.ru/ontologies/cdp/investigation"/>
         <owl:imports rdf:resource="http://www.iimm.ru/ontologies/cdp/investigation-process"/>
         <owl:imports rdf:resource="http://www.iimm.ru/ontologies/cdp/investigation/publication"/>
